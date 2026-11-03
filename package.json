@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "npx frida-compile src/index.ts -o agent_v36.218.js && echo built! "
+  },
+  "devDependencies": {
+    "@types/frida-gum": "^19.0.2",
+    "frida-compile": "^19.0.5",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "frida": "^17.15.4"
+  },
+  "allowScripts": {
+    "frida": true
+  }
+}
